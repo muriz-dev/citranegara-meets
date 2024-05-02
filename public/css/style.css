@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&family=Montserrat&display=swap");
+
+
+
+body {
+    background: #D9D9D9; 
+}
+
+/* FORM LOGIN */
+
+.inputlog form {
+    margin-top: 100px;
+}
+.inputlog-xs form {
+    margin-top: 50px;
+}
+
+.img-login {
+    position: relative;
+}
+
+.smk-cn {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 4px 4px #000;
+}
+.smk-cn-xs {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 20px;
+    color: #000;
+}
+
+.smk-cn img  {
+    max-width: 100px;
+    max-height: 100px;
+}
+.smk-cn-xs img  {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.card-img {
+    opacity: 90%;
+}
+
+.card-judul {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 4px 4px #000;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+
+/* TUTUP */
+/* RESPONSIF */
+
+
+
+ 
+@media screen and (max-width: 1199px) {
+    /* SIDEBAR */
+
+    /* TUTUP SIDEBAR */
+    /* HOME */
+
+        .CD1 .ja .card {
+            margin-top: 20px;
+        }
+
+       
+        .CD1 .pti .card {
+            margin-top: 20px;
+        }
+
+        .CD1 .jt .card {
+            margin-top: 20px;
+        }
+
+    /* TUTUP HOME */
+
+    /* ACARA */
+    .CD3 .card-body {
+        max-height: 150px;
+    }
+
+    .CD3 .col-12 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    /* TUTUP ACARA */
+
+    /* DAFTAR PENGUNJUNG */
+
+    table {
+        min-width: 1000px;
+    }
+
+    .daftar_pengunjung {
+        position: relative;
+    }
+
+
+    /* TUTUP DAFTAR PENGUNJUNG */
+/* TUTUP RESPONSIVE */
+  }
+
+  
+
+/* SIDEBAR */
+.sidebar-xl {
+    background: #260354;
+    width: 20%;
+    position: relative;
+       
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.sidebar-xl .side_header {
+    background-color: #170033b9;
+
+}
+
+.sidebar-xl .position-fixed {
+    width: 16.667%;
+    height: 100%;
+}
+
+.sidebar-xl .side_header img {
+    max-height: 100px;
+    max-width: 100px;
+    padding: 10px;  
+}
+
+.sidebar-xl .side_header .judul {
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+}
+
+.sidebar-xl ul li {
+    transition: 0.4s;
+    line-height: 75px;
+    border-bottom: 1px #3c3838 solid;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+.sidebar-xl {
+    transition: 0.4s;
+}
+
+.sidebar-xl ul a {
+    color: #fff;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.sidebar-xl ul a :hover {
+    background-color: #0c001b;
+    cursor: pointer;
+    border-left: 10px solid #fff;
+    transition: 0.4s;
+}
+
+
+.sidebar-xl li a {
+    color: white;  
+}
+
+
+
+.sidebar {
+    background: #260354;
+    width: 20%;
+    position: relative;   
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.sidebar .side_header {
+    background-color: #170033b9;
+    width: 100%;
+}
+
+.sidebar .side_header img {
+    max-height: 100px;
+    max-width: 100px;
+    padding: 10px;  
+}
+
+.sidebar .side_header .judul {
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+}
+
+.sidebar ul li {
+    transition: 0.4s;
+    line-height: 75px;
+    border-bottom: 1px #3c3838 solid;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+.sidebar {
+    transition: 0.4s;
+}
+
+.sidebar ul a {
+    color: #fff;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.sidebar ul a :hover {
+    background-color: #0c001b;
+    cursor: pointer;
+    border-left: 10px solid #fff;
+    transition: 0.4s;
+}
+
+
+.sidebar li a {
+    color: white;  
+}
+
+
+.logout {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px; 
+    width: 90%; 
+}
+
+.garis {
+    color: white;
+    
+}
+
+
+.konten {
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+
+
+/* TUTUP SIDEBAR */
+
+/* INI NAVBAR */
+.navbar {
+    position: relative;
+}
+
+.navbar i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    color: #fff;
+    width: 50px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a :hover {
+    background-color: rgb(222, 0, 0);
+    cursor: pointer;
+}
+
+.navbar .clpsebar .iconbar  {
+    position: absolute;
+    left: 0;
+    background-color: #0c001b;
+    cursor: pointer;
+    width: 50px;
+}
+
+/* TUTUP NAVBAR */
+/* INI KONTEN */
+
+.konten {
+    position: relative;
+}
+
+/* TUTUP KONTEN */
+
+
+/* HOME.HTML */
+.CD1 .card {
+    background-color: #260354;
+    font-family: 'Montserrat', sans-serif; 
+    height: 150px;
+}
+
+.CD1 .card h3 {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+#donat {
+    height: 700px;
+}
+/* TUTUP HOME.HTML */
+
+/* ACARA.HTML */
+
+.CD3 .card img {
+    transition: 0.4s;
+}
+
+
+
+.CD3 .card .gambar :hover{
+    transition: 0.4s;
+    transform: scale(1.1); 
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.CD3 img {
+    max-height: 250px;
+    height: 250px;
+}
+
+.CD3 h5 {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.btn1 {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.btn1 :active {
+    transform: scale(-1);
+}
+
+.hd_grp {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+
+.btnplus button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    transition: 0.4s;
+    min-width: 65px;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnplus i {
+    font-size: 25px;
+}
+
+.btnplus :hover {
+    transition: 0.4s;
+    transform: scale(1.3);
+}
+.btnplus-sm button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    transition: 0.4s;
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnplus-sm i {
+    font-size: 20px;
+}
+
+.btnplus-sm :hover {
+    transition: 0.4s;
+    transform: scale(1.3);
+}
+/* TUTUP ACARA.HTML */
+
+
+
+/* FORMACARA.HTML */
+
+.form1 label {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.btn4 {
+    min-width: 50px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+/* TUTUP FORMACARA.HTML */
+
+/* DAFTAR PENGUNJUNG */
+
+.info  {
+    font-family: 'Montserrat', sans-serif; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.br_code img {
+    max-height: 150px;
+    transition: 0.5s;
+}
+
+.br_code :hover {
+    cursor: pointer; 
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.br_code-sm img {
+    transition: 0.5s;
+}
+
+.br_code-sm :hover {
+    cursor: pointer; 
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.daftar_pengunjung {
+    position: relative;
+}
+
+.dow-br_code {
+    position: absolute;
+    right: 95px;
+}
+
+.icon1 i {
+    transition: 0.5s;
+}
+
+
+.icon1  :hover {
+    cursor: pointer; 
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+.icon1-sm i {
+    transition: 0.5s;
+}
+
+.icon1-sm  :hover {
+    cursor: pointer; 
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+.ud1 button {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.row1 h4 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.row1 button {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.garis3 {
+    color: black;
+}
+
+.nav_close {
+    border:solid  rgb(255, 0, 0) ;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px ;
+}
+
+.dow_lap h5 {
+    font-family: 'Baloo Thambi 2', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* TUTUP DAFTAR PENGUNJUNG */
+
+/* DAFTAR TAMU */
+
+.ud2 {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+/* TUTUP DAFTAR TAMU */
+
+.user-card  {
+    font-family: 'Baloo Thambi 2', cursive;
+
+}
+
+.user-img img {
+    min-height: 225px;
+}
+
+.user-img-sm img {
+    max-height: 150px;
+    min-height: 150px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* TABEL */
+
+thead {
+    font-family: 'Baloo Thambi 2', cursive;   
+}
+
+tbody{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;
+}
+
+
+/* TUTUP TABEL */
+
+/* BUTTON CLOSE */
+.close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    
+}

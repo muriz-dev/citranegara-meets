@@ -1,0 +1,147 @@
+@media screen and (max-width: 1199px) {
+
+    nav .close-btn {
+        display: block;
+    }
+
+
+    .clpse {
+        display: block;
+    }
+
+    nav .text_nav {
+        text-align: center;
+        margin-right: 15px;
+    }
+}
+
+
+@media (min-width: 0) and (max-width: 425px) {
+
+    .side_header {
+        position: relative;
+    }
+
+    .sidebar {
+        background: #260354;
+        width: 60%;
+        font-family: 'Baloo Thambi 2', cursive;
+        margin-left: -300px;
+        position: absolute;
+        min-height: 100vh;
+        z-index: 1;
+        position: fixed;
+    }
+
+    .close-btn {
+        top: 5px;
+        right: 5px;
+        width: 30px;
+        position: absolute;
+        min-height: 30px;
+        z-index: 1;
+    }
+
+    .sidebar.active {
+        margin-left: 0;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width: 575px) {
+
+    .side_header {
+        position: relative;
+    }
+
+    .sidebar {
+        background: #260354;
+        width: 45%;
+        font-family: 'Baloo Thambi 2', cursive;
+        margin-left: -300px;
+        position: absolute;
+        min-height: 100vh;
+        z-index: 1;
+        position: fixed;
+    }
+
+    .close-btn {
+        top: 5px;
+        right: 5px;
+        width: 30px;
+        position: absolute;
+        min-height: 30px;
+        z-index: 1;
+    }
+
+    .sidebar.active {
+        margin-left: 0;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .side_header {
+        position: relative;
+    }
+
+    .sidebar {
+        background: #260354;
+        width: 35%;
+        font-family: 'Baloo Thambi 2', cursive;
+        margin-left: -300px;
+        position: absolute;
+        min-height: 100vh;
+        z-index: 1;
+        position: fixed;
+    }
+
+    .close-btn {
+        top: 5px;
+        right: 5px;
+        width: 30px;
+        position: absolute;
+        min-height: 30px;
+        z-index: 1;
+    }
+
+    .sidebar.active {
+        margin-left: 0;
+    }
+}
+
+
+
+
+@media(min-width: 769px) and (max-width: 1199px) {
+
+    .side_header {
+        position: relative;
+    }
+
+    .sidebar {
+        background: #260354;
+        width: 25%;
+        font-family: 'Baloo Thambi 2', cursive;
+        margin-left: -300px;
+        position: absolute;
+        min-height: 100vh;
+        z-index: 1;
+        position: fixed;
+    }
+
+    .close-btn {
+        top: 5px;
+        right: 5px;
+        width: 30px;
+        position: absolute;
+        min-height: 30px;
+        z-index: 1;
+    }
+
+    .sidebar.active {
+        margin-left: 0;
+    }
+}
+
